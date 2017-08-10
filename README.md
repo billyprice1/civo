@@ -100,7 +100,7 @@ Creating an instance is a simple command away (remember, if you can't remember t
 
 ```
 civo instance create --name test2.example.com --size g1.small \
-  --region svg1 --ssh-key default --template ubuntu-14.04 --public-ip
+  --region svg1 --ssh-key-id default --template ubuntu-14.04 --public-ip
 ```
 
 If you don't specify a name, a random one will be created for you.
